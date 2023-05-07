@@ -24,7 +24,7 @@ const msg=document.getElementById("message").value;
 
   var progressW = 0;
   var intervalId = setInterval(function() {
-      progressW += 10;
+      progressW += 20;
       progressBar.style.width = progressW + "%";
       if (progressW >= 100) {
           clearInterval(intervalId);
