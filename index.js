@@ -106,3 +106,36 @@ function mapSkills(skills) {
     skillsContainer.appendChild(skillItem);
   });
 }
+
+// javascript code for project section
+// Function to fetch project data from JSON and populate projects section
+async function fetchProjects() {
+  try {
+    const response = await fetch('project.json');
+    const data = await response.json();
+    const projectsContainer = document.querySelector('.projects .row');
+
+    data.projects.forEach(project => {
+      const projectCard = `
+        <div class="col-md-4">
+          <a href="${project.link}" target="_blank" rel="noopener noreferrer">
+            <div class="card mb-4 shadow-sm">
+              <img src="${project.image}" class="card-img-top" alt="${project.name}">
+              <div class="card-body">
+                <h5 class="card-title">${project.name}</h5>
+                <p class="card-text">${project.description}</p>
+                <p class="card-text"><strong>Technologies:</strong> ${project.technologies.join(', ')}</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      `;
+      projectsContainer.innerHTML += projectCard;
+    });
+  } catch (error) {
+    console.error('Error fetching projects data:', error);
+  }
+}
+
+// Call the function to populate projects on page load
+fetchProjects();
