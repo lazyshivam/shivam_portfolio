@@ -55,3 +55,33 @@
     background-color: #0069d9;
     box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.3);
   }
+  /* css for skills section */
+  /* Custom styles for the skills section */
+/* Custom styles for the skills section */
+#skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .skill-item {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .skill-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .skill-item i {
+    font-size: 36px;
+    color: #007bff; /* Replace with your desired icon color */
+    margin-bottom: 10px;
+  }
+  

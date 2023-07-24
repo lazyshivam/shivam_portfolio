@@ -8,8 +8,8 @@ const email=document.getElementById("email").value;
 const msg=document.getElementById("message").value;
 
 
-  const url = 'https://my-portfolio-shivam.onrender.com/submit-form'; // replace this with the URL to your server-side form handler
- 
+  // const url = 'https://my-portfolio-shivam.onrender.com/submit-form'; // replace this with the URL to your server-side form handler
+   const url="http://localhost:8000/submit-form";
   var modal = document.getElementById("loading-modal");
   var submit_message=document.getElementById("submit-message");
   modal.style.display = "block";
@@ -63,3 +63,46 @@ const msg=document.getElementById("message").value;
     // Handle any errors that occurred during form submission
   }
 });
+
+// code for mapping the skills in hmtl file goes here
+
+  // Fetch the JSON data from the file
+  fetch('skills.json')
+    .then(response => response.json())
+    .then(data => {
+      // Call a function to map the skills to the HTML
+      mapSkills(data.skills);
+    })
+    .catch(error => console.error('Error fetching skills data:', error));
+
+  // Function to map skills to HTML
+ // index.js
+
+// Function to map skills to HTML
+function mapSkills(skills) {
+  const skillsContainer = document.getElementById('skillsContainer');
+
+  // Loop through the skills array and create HTML elements
+  skills.forEach(skill => {
+    const skillItem = document.createElement('div');
+    skillItem.classList.add('skill-item');
+
+    const iconElement = document.createElement('i');
+    // Split the class names by spaces and add them individually to the class list
+    skill.icon.split(' ').forEach(className => {
+      iconElement.classList.add(className);
+    });
+
+    const nameElement = document.createElement('h3');
+    nameElement.textContent = skill.name;
+
+    const categoryElement = document.createElement('p');
+    categoryElement.textContent = skill.category;
+
+    skillItem.appendChild(iconElement);
+    skillItem.appendChild(nameElement);
+    skillItem.appendChild(categoryElement);
+
+    skillsContainer.appendChild(skillItem);
+  });
+}

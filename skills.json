@@ -1,0 +1,116 @@
+{
+    "skills": [
+      {
+        "id": 1,
+        "name": "HTML",
+        "category": "Web Development",
+        "icon": "uil uil-html5"
+      },
+      {
+        "id": 2,
+        "name": "CSS",
+        "category": "Web Development",
+        "icon": "fab fa-css3-alt"
+      },
+      {
+        "id": 3,
+        "name": "JavaScript",
+        "category": "Web Development",
+        "icon": "fab fa-js"
+      },
+      {
+        "id": 4,
+        "name": "ReactJS",
+        "category": "Web Development",
+        "icon": "fab fa-react"
+      },
+      {
+        "id": 5,
+        "name": "Node.js",
+        "category": "Web Development",
+        "icon": "fab fa-node"
+      },
+      
+      {
+        "id": 7,
+        "name": "Express.js",
+        "category": "Web Development",
+        "icon": "fas fa-server" 
+      },
+      {
+        "id": 8,
+        "name": "Redux.js",
+        "category": "Web Development",
+        "icon": "fas fa-cogs" 
+      },
+      {
+        "id": 9,
+        "name": "Bootstrap",
+        "category": "Web Development",
+        "icon": "fab fa-bootstrap"  
+      },
+      {
+        "id": 10,
+        "name": "Tailwind CSS",
+        "category": "Web Development",
+        "icon": "fab fa-css3" 
+      },
+      {
+        "id": 11,
+        "name": "Git & Github",
+        "category": "Web Development",
+        "icon": "fab fa-github" 
+      },
+      {
+        "id": 12,
+        "name": "MongoDB",
+        "category": "Database",
+        "icon": "fas fa-database" 
+      },
+      {
+        "id": 13,
+        "name": "MySQL",
+        "category": "Database",
+        "icon": "fas fa-database" 
+      },
+      
+      {
+        "id": 20,
+        "name": "C++",
+        "category": "Programming Language",
+        "icon": "fa-solid fa-code"
+      },
+      {
+        "id": 21,
+        "name": "Java",
+        "category": "Programming Language",
+        "icon": "fab fa-java"
+      },
+      {
+        "id": 22,
+        "name": "C",
+        "category": "Programming Language",
+        "icon": "fa-solid fa-code"
+      },
+      
+      {
+        "id": 23,
+        "name": "Python",
+        "category": "Programming Language",
+        "icon": "fab fa-python"
+      },
+      {
+        "id": 24,
+        "name": "Solidity",
+        "category": "Programming Language",
+        "icon": "fab fa-ethereum"
+      },
+      {
+        "id": 26,
+        "name": "Data Structures & Algorithms",
+        "category": "Programming Concepts",
+        "icon": "fas fa-cogs" 
+      }
+    ]
+  }
+  
