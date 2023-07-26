@@ -202,4 +202,48 @@
       transform: translateY(0);
     }
   }
-  
+  /* CSS for the achievements section */
+
+.acheivements {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.acheivements h2 {
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #0c0c0d;
+}
+
+.acheivements-list {
+  list-style: none;
+  padding: 0;
+}
+
+.acheivements-list li {
+  font-size: 18px;
+  line-height: 2;
+  color: #484848;
+}
+
+.acheivements-list .icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #ffc200;
+}
+
+/* Add cool animations to the list items */
+
+.acheivements-list li {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
