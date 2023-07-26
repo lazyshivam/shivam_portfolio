@@ -37,6 +37,7 @@ body {
 	padding: 8rem 0;
 }
 
+
 .small-text {
     color: $body-font-color;
     font-size: $small-font-size;
@@ -45,6 +46,7 @@ body {
     border-radius: 50px;
     letter-spacing: 0.2px;
 }
+
 
 ul {
 	margin: 0;
@@ -330,7 +332,7 @@ b, strong {
 	.navbar-light .navbar-nav .nav-link {
 		color: rgba(255,255,255,0.8);
 		&:hover {
-			color: $main-color;
+			color: $main-color !important;
 		}
 	}
 	.navbar {
@@ -340,7 +342,7 @@ b, strong {
 	    }
 	}
 	.small-text {
-		background: #0d0c15;
+		background: #0d0c15 ;
 		color: $text-white;
 	}
 	.feature-card .uil,
@@ -356,6 +358,9 @@ b, strong {
 			color: $text-white;
 		}
 	}
+	
+	
+	
 }
 
 

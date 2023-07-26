@@ -117,9 +117,9 @@ async function fetchProjects() {
 
     data.projects.forEach(project => {
       const projectCard = `
-        <div class="col-md-4">
+        <div class="col-md-4 ">
           <a href="${project.link}" target="_blank" rel="noopener noreferrer">
-            <div class="card mb-4 shadow-sm">
+            <div class="card mb-4  shadow-sm">
               <img src="${project.image}" class="card-img-top" alt="${project.name}">
               <div class="card-body">
                 <h5 class="card-title">${project.name}</h5>

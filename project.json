@@ -2,18 +2,26 @@
 {
     "projects": [
       {
-        "name": "Project 1",
-        "description": "Description of Project 1",
-        "image": "path-to-image1.jpg",
-        "technologies": ["HTML", "CSS", "JavaScript"],
-        "link": "https://example.com/project1" 
+        "name": "Cryptoverse-Cryptocurrency Education and News Platform",
+        "description": "Developed a platform for users to learn about cryptocurrencies. Integrated a news aggregation feature,allowing users stay up-to-date with the lates cryptocurrency news Incorporated Chart.js for data visualization and graphing. Successfully integrated an external API (Rapid API) into the project. Developed the front-end with responsive design principles using Ant Design",
+        "image": "images/project/CryptoHome.png",
+        "technologies": ["ReactJS", "Ant Design", "Rapid API"," Chart.js"],
+        "link": "https://cryptos-live.netlify.app/" 
       },
       {
-        "name": "Project 2",
-        "description": "Description of Project 2",
-        "image": "path-to-image2.jpg",
-        "technologies": ["React", "Redux", "Firebase"],
-        "link": "https://example.com/project2" 
+        "name": "FreeBook-Note-Taking Application",
+        "description": "Implemented user authentication, login, and signup functionality using encryption and token-based authentication. Developed CRUD functionality for notes using RESTful API design principles and HTTP methods. Designed data model, schema, and query optimization for MongoDB. Developed the front-end with responsive design principles using Bootstrap.",
+        "image": "images/project/FreeBookHome.png",
+        "technologies": ["ReactJS", "Node.js","ExpressJS","Bootstrap", "MongoDB"],
+        "link": "https://freebook-website.netlify.app/login" 
+      }
+      ,
+      {
+        "name": "Talk2Me-Video Call and Chat Application",
+        "description":"Implemented user authentication, login, and signup functionality using encryption and token-based  authentication. Integrated video call functionality using WebRTC and PeerJS. Developed chat functionality using WebSocket and Socket.io Designed data model, schema, and query optimization for MongoDB.",
+        "image": "images/project/talkTome.png",
+        "technologies": ["ReactJS", "Socket.io", "PeerJS", "Node.js","ExpressJS","MongoDB","Tailwind CSS" ],
+        "link": "https://talk02me.netlify.app/login" 
       }
     ]
   }

@@ -53,7 +53,7 @@
   }
   .my_btn:hover {
     background-color: #0069d9;
-    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.125rem 0.5rem rgba(20, 19, 19, 0.3);
   }
   /* css for skills section */
   /* Custom styles for the skills section */
@@ -65,10 +65,10 @@
   }
   
   .skill-item {
-    background-color: #f8f9fa;
+    background-color: #f0f0f0;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(13, 12, 12, 0.227);
     text-align: center;
     margin: 10px;
     width: 200px;
@@ -86,23 +86,24 @@
   }
 
   /* Custom styles for the platforms section */
-.platforms {
+/* .platforms {
     background-color: #f8f9fa;
     padding: 50px 0;
   }
-  
+   */
   .platforms-item {
-    background-color: #ffffff;
+    background-color: #f0f0f0;
     border-radius: 8px;
     padding: 20px;
     margin: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(41, 37, 37, 0.3);
     text-align: center;
     transition: transform 0.3s ease-in-out;
   }
   
   .platforms-item:hover {
     transform: scale(1.05);
+    /* box-shadow: 0 2px 5px rgba(2, 2, 2, 0.3); */
   }
   
   /* Example CSS for animated project section */
@@ -112,7 +113,7 @@
   
   .projects .card:hover {
     transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(15, 14, 14, 0.1);
   }
   
   .projects .card-title {
@@ -128,5 +129,77 @@
   .projects .card-img-top {
     height: 200px;
     object-fit: cover;
+  }
+  
+    
+    .dark-mode .card:hover .card-title {
+      color: #ffc200 !important;
+  
+    }
+    .dark-mode .card ,.dark-mode .skill-item ,.dark-mode .platforms-item,.dark-mode  .coding-platform-item{
+      background-color:#0c0c0d;
+      box-shadow: 0 4px 8px rgba(254, 254, 254, 0.1) !important;
+    }
+    .dark-mode .skill-item:hover h3 ,.dark-mode .platforms-item:hover h3, .dark-mode .coding-platform-item:hover h3{
+      color: #ffc200 !important;
+    }
+  /* css for coding platforms sections */
+  .coding-platforms-section {
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .coding-platforms-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .coding-platform-item {
+    margin: 20px;
+    padding: 30px;
+    width: 250px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .coding-platform-item img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .coding-platform-item h3 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .coding-platform-item p {
+    margin-top: 10px;
+  }
+  
+  /* Add animation on hover */
+  .coding-platform-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Additional animations */
+  .coding-platforms-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    animation: fadeInDown 1s;
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
   
