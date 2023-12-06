@@ -247,3 +247,34 @@
     transform: translateY(0);
   }
 }
+
+/* Css for quotes container  */
+/* Add these styles to your CSS file or within a style tag in your HTML */
+.loading-message {
+  text-align: center;
+  color: #555;
+}
+
+.quote-container {
+  background-color: #f8f9fa; /* Light gray background */
+  border: 1px solid #ced4da; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px;
+  max-width: 300px; /* Adjust as needed */
+}
+
+.quote-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: #343a40; /* Dark text color */
+  margin-bottom: 8px;
+}
+
+.quote-author {
+  font-size: 14px;
+}
+
+.error-message {
+  text-align: center;
+  color: #dc3545; /* Red text color */
+}

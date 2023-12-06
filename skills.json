@@ -44,6 +44,12 @@
         "icon": "fas fa-cogs" 
       },
       {
+        "id": 88,
+        "name": "Passport.js",
+        "category": "Web Development",
+        "icon": "fas fa-cogs" 
+      },
+      {
         "id": 9,
         "name": "Bootstrap",
         "category": "Web Development",

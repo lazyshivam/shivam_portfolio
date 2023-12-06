@@ -22,6 +22,13 @@
         "image": "images/project/talkTome.png",
         "technologies": ["ReactJS", "Socket.io", "PeerJS", "Node.js","ExpressJS","MongoDB","Tailwind CSS" ],
         "link": "https://talk02me.netlify.app/login" 
+      },
+      {
+        "name": "Postman Beta",
+        "description":"Postman Beta is a web application developed using React for the client-side, Express for the backend, and MongoDB for the database. It provides users with the ability to check their APIs, make multiple requests simultaneously, and manage and save their important APIs for future use.",
+        "image": "images/project/postmanApi.png",
+        "technologies": ["ReactJS", "Tailwind CSS", "Node.js","ExpressJS","MongoDB","Google Auth 2.0" ],
+        "link": "https://postman-071b.onrender.com" 
       }
     ]
   }

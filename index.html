@@ -8,46 +8,47 @@
   <meta name="author" content="">
 
   <title>Shivam-Portfolio</title>
-
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/unicons.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
- <!-- Add this in the head section of your HTML file -->
-<!-- Add this in the head section of your HTML file -->
-<!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/unicons.css"> -->
-<!-- Add this in the head section of your HTML file -->
- <!-- Add Font Awesome CSS link in the head section of your HTML file -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
   <!-- MAIN STYLE -->
   <link rel="stylesheet" href="css/tooplate-style.css">
   <link rel="stylesheet" href="index.css">
 
-  <!--
 
-Tooplate 2115 Marvel
+  <!-- Some scripts that are added before but after removing this there is no such effect in my website happened -->
+  <script defer src="js/jquery-3.3.1.min.js"></script>
+  <script defer src="js/popper.min.js"></script>
+  <script defer src="js/bootstrap.min.js"></script>
+  <script defer src="js/Headroom.js"></script>
+  <script defer src="js/jQuery.headroom.js"></script>
+  <script defer src="js/owl.carousel.min.js"></script>
+  <script defer src="js/smoothscroll.js"></script>
+  <script defer src="js/custom.js"></script>
 
-https://www.tooplate.com/view/2115-marvel
-
--->
 </head>
 
 <body>
 
   <!-- MENU -->
   <div id="loading-modal" class="modal">
-		<div class="modal-content">
-			<h2 id="submit-message"></h2>
-			<div id="modal_P" class="progress modal-progress">
-				<div id="loading-progress-bar" class="progress-bar"></div>
-			</div>
+    <div class="modal-content">
+      <h2 id="submit-message"></h2>
+      <div id="modal_P" class="progress modal-progress">
+        <div id="loading-progress-bar" class="progress-bar"></div>
+      </div>
       <div id="modal_button">
-				<button id="myButton" class="my_btn">OK</button>
-			</div>
-		</div>
-	</div>
+        <button id="myButton" class="my_btn">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-sm navbar-light">
     <div class="container">
       <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i>Shivam Goswami</a>
@@ -98,7 +99,7 @@ https://www.tooplate.com/view/2115-marvel
             <h1 class="animated animated-text">
               <span class="mr-2">Hello there.., I'm</span>
               <div class="animated-info">
-                <span class="animated-item">Shivam Goswami</span>
+                <span class="animated-item ">Shivam Goswami</span>
                 <span class="animated-item">Web Developer</span>
                 <span class="animated-item">Competative Progammer</span>
               </div>
@@ -108,10 +109,19 @@ https://www.tooplate.com/view/2115-marvel
               and web development.</p>
 
             <div class="custom-btn-group mt-4">
-              <a href="./Doc/Shivam's Resume New Updated 2023.pdf" download class="btn mr-lg-2 custom-btn"><i
+              <a href="./Doc/Shivam_resume_updated_on_16-11-23.pdf" download class="btn mr-lg-2 custom-btn"><i
                   class='uil uil-file-alt'></i> Download Resume</a>
-              <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Get a free quote</a>
+
+
+
+              <button type="button" class="btn custom-btn custom-btn-bg "  id="quoteButton" 
+                 >Get a
+                free quote</button>
+
+
+
             </div>
+
           </div>
         </div>
 
@@ -132,86 +142,110 @@ https://www.tooplate.com/view/2115-marvel
       <div class="row">
         <!-- Project Cards will be dynamically added here -->
       </div>
+      <h2 class="text-center mb-4">Other Projects</h2>
+      <div>
+        <ul class="list-group-flush">
+          <li class="list-group-item">Letsvibe-Chat App </li>
+          <li class="list-group-item">RealState_website</li>
+          <li class="list-group-item">Event_Explorer</li>
+          <li class="list-group-item">Electronic_shop_ecommerce_website</li>
+          <li class="list-group-item">Hotel_Booking_Website</li>
+          <li class="list-group-item">Hodlinfo_full_Stack_project</li>
+          <li class="list-group-item">Otheres..</li>
+
+        </ul>
+      </div>
+    </div>
     </div>
   </section>
-  
-  
- <!-- skills section goes here -->
- <!-- HTML file -->
-<section class="container ">
-  <div class="d-flex flex-column  justify-content-center align-items-center">
-    <h1 class="d-inline  ">Skills</h1>
-  <div id="skillsContainer"></div>
-  </div>
-</section>
-<!-- platforms section -->
-<section class="platforms   py-5" id="platforms">
-  <div class="container">
-    <h2 class="text-center mb-4">Platforms Used</h2>
-    <div class="row">
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="platforms-item animated fadeInUp">
-          <h3>VS code</h3>
-          <p>Development & coding</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="platforms-item animated fadeInUp">
-          <h3>Render & Netlify</h3>
-          <p>Hosting</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="platforms-item animated fadeInUp">
-          <h3>Windows</h3>
-          <p>Platforms</p>
-        </div>
-      </div>
-      <!-- Add more skill items here as needed -->
+
+
+  <!-- skills section goes here -->
+  <!-- HTML file -->
+  <section class="container ">
+    <div class="d-flex flex-column  justify-content-center align-items-center">
+      <h1 class="d-inline  ">Skills</h1>
+      <div id="skillsContainer"></div>
     </div>
-  </div>
-</section>
+  </section>
+  <!-- platforms section -->
+  <section class="platforms   py-5" id="platforms">
+    <div class="container">
+      <h2 class="text-center mb-4">Platforms Used</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="platforms-item animated fadeInUp">
+            <h3>VS code</h3>
+            <p>Development & coding</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="platforms-item animated fadeInUp">
+            <h3>Render & Netlify</h3>
+            <p>Hosting</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="platforms-item animated fadeInUp">
+            <h3>Windows</h3>
+            <p>Platforms</p>
+          </div>
+        </div>
+        <!-- Add more skill items here as needed -->
+      </div>
+    </div>
+  </section>
 
-<!-- coding platfroms -->
-<section class="coding-platforms-section">
-  <h2>Coding Platforms</h2>
-  <div class="coding-platforms-container">
-    <a href="https://leetcode.com/linus-071/" target="_blank" rel="noopener noreferrer" class="coding-platform-item">
-      <img width="96" height="96" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png" alt="external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo"/>
-      <h3>LeetCode</h3>
-      <!-- <p>Practice coding problems and prepare for interviews.</p> -->
-    </a>
-    <a href="https://auth.geeksforgeeks.org/user/lazyshivam/" target="_blank" rel="noopener noreferrer" class="coding-platform-item">
-      <img width="96" height="96" src="https://img.icons8.com/color/96/GeeksforGeeks.png" alt="GeeksforGeeks"/>
-      <h3>GeeksforGeeks</h3>
-      <!-- <p>Learn algorithms, data structures, and programming concepts.</p> -->
-    </a>
-    <a href="https://www.codechef.com/users/shivamgoswami" target="_blank" rel="noopener noreferrer" class="coding-platform-item">
-      <img width="96" height="96" src="https://img.icons8.com/color/96/codechef.png" alt="codechef"/>
-      <h3>CodeChef</h3>
-      <!-- <p>Participate in coding contests and improve your skills.</p> -->
-    </a>
-    <a href="https://codeforces.com/profile/crazy_shivam" target="_blank" rel="noopener noreferrer" class="coding-platform-item">
-      <img width="96" height="96" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-codeforces-programming-competitions-and-contests-programming-community-logo-color-tal-revivo.png" alt="external-codeforces-programming-competitions-and-contests-programming-community-logo-color-tal-revivo"/>
-      <h3>Codeforces</h3>
-      <!-- <p>Compete in programming competitions and climb the rankings.</p> -->
-    </a>
-  </div>
-</section>
+  <!-- coding platfroms -->
+  <section class="coding-platforms-section">
+    <h2>Coding Platforms</h2>
+    <div class="coding-platforms-container">
+      <a href="https://leetcode.com/linus-071/" target="_blank" rel="noopener noreferrer" class="coding-platform-item">
+        <img width="96" height="96"
+          src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png"
+          alt="external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo" />
+        <h3>LeetCode</h3>
+        <!-- <p>Practice coding problems and prepare for interviews.</p> -->
+      </a>
+      <a href="https://auth.geeksforgeeks.org/user/lazyshivam/" target="_blank" rel="noopener noreferrer"
+        class="coding-platform-item">
+        <img width="96" height="96" src="https://img.icons8.com/color/96/GeeksforGeeks.png" alt="GeeksforGeeks" />
+        <h3>GeeksforGeeks</h3>
+        <!-- <p>Learn algorithms, data structures, and programming concepts.</p> -->
+      </a>
+      <a href="https://www.codechef.com/users/shivamgoswami" target="_blank" rel="noopener noreferrer"
+        class="coding-platform-item">
+        <img width="96" height="96" src="https://img.icons8.com/color/96/codechef.png" alt="codechef" />
+        <h3>CodeChef</h3>
+        <!-- <p>Participate in coding contests and improve your skills.</p> -->
+      </a>
+      <a href="https://codeforces.com/profile/crazy_shivam" target="_blank" rel="noopener noreferrer"
+        class="coding-platform-item">
+        <img width="96" height="96"
+          src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-codeforces-programming-competitions-and-contests-programming-community-logo-color-tal-revivo.png"
+          alt="external-codeforces-programming-competitions-and-contests-programming-community-logo-color-tal-revivo" />
+        <h3>Codeforces</h3>
+        <!-- <p>Compete in programming competitions and climb the rankings.</p> -->
+      </a>
+    </div>
+  </section>
 
-<!-- section for acheivements -->
-<section class="container">
-  <div class="acheivements">
-    <h2>My Achievements</h2>
-    <ul class="acheivements-list">
-      <li><span class="icon">&#128293;</span>Achieved semi-finalist position in Flipkart Grid 4.0.</li>
-      <li><span class="icon">&#128202;</span>Solved over 600 coding problems across multiple platforms such as LeetCode, CodeChef, and Codeforces.</li>
-      <li><span class="icon">&#127942;</span>Attained 1500+ rating on CodeChef, showcasing proficiency in coding and algorithm design.</li>
-      <li><span class="icon">&#127891;</span>Completed a comprehensive web development course on Coursera.</li>
-      <li><span class="icon">&#127760;</span>Developed and deployed over 10+ projects utilizing full-stack and front-end technologies.</li>
-    </ul>
-  </div>
-</section>
+  <!-- section for acheivements -->
+  <section class="container">
+    <div class="acheivements">
+      <h2>My Achievements</h2>
+      <ul class="acheivements-list">
+        <li><span class="icon">&#128293;</span>Achieved semi-finalist position in Flipkart Grid 4.0.</li>
+        <li><span class="icon">&#128202;</span>Solved over 600 coding problems across multiple platforms such as
+          LeetCode, CodeChef, and Codeforces.</li>
+        <li><span class="icon">&#127942;</span>Attained 1500+ rating on CodeChef, showcasing proficiency in coding and
+          algorithm design.</li>
+        <li><span class="icon">&#127891;</span>Completed a comprehensive web development course on Coursera.</li>
+        <li><span class="icon">&#127760;</span>Developed and deployed over 10+ projects utilizing full-stack and
+          front-end technologies.</li>
+      </ul>
+    </div>
+  </section>
 
   <!-- FEATURES -->
   <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
@@ -334,22 +368,24 @@ https://www.tooplate.com/view/2115-marvel
           <div class="contact-form">
             <h2 class="mb-4">Interested to work together? Let's talk</h2>
 
-            <form id="myForm"  method="POST">
+            <form id="myForm" method="POST">
               <div class="row">
                 <div class="col-lg-6 col-12">
-                  <input type="text" class="form-control " name="name" required minlength="3" placeholder="Your Name" id="name">
+                  <input type="text" class="form-control " name="name" required minlength="3" placeholder="Your Name"
+                    id="name">
                 </div>
 
                 <div class="col-lg-6 col-12">
                   <input type="email" class="form-control" name="email" required placeholder="Email" id="email">
                 </div>
 
-                <div class="col-12 " >
-                  <textarea  name="message " rows="6" class="form-control " id="message" minlength="10" required placeholder="Message"></textarea>
+                <div class="col-12 ">
+                  <textarea name="message " rows="6" class="form-control " id="message" minlength="10" required
+                    placeholder="Message"></textarea>
                 </div>
 
                 <div class="ml-lg-auto col-lg-5 col-12">
-                  <button type="submit" class="form-control submit-btn" >Send</button>
+                  <button type="submit" class="form-control submit-btn">Send</button>
                 </div>
               </div>
             </form>
@@ -372,17 +408,12 @@ https://www.tooplate.com/view/2115-marvel
 
       </div>
     </div>
-  </footer>
+  </footer> 
 
-  <script defer src="js/jquery-3.3.1.min.js"></script>
-  <script defer src="js/popper.min.js"></script>
-  <script defer src="js/bootstrap.min.js"></script>
-  <script defer src="js/Headroom.js"></script>
-  <script defer src="js/jQuery.headroom.js"></script>
-  <script defer src="js/owl.carousel.min.js"></script>
-  <script defer src="js/smoothscroll.js"></script>
-  <script defer src="js/custom.js"></script>
+
   <script defer src="index.js"></script>
+  <script defer src="getRandomQuotes.js"></script>
+
 </body>
 
 </html>
