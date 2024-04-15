@@ -24,6 +24,13 @@
         "category": "Web Development",
         "icon": "fab fa-react"
       },
+        {
+        "id": 44,
+        "name": "AngularJS",
+        "category": "Web Development",
+        "icon": "fa-brands fa-angular"
+      },
+
       {
         "id": 5,
         "name": "Node.js",
